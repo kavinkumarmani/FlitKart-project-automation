@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart page Automation testing]">
+  <test thread-count="5" name="Flipkart HP Laptops page testing(failed)">
+    <classes>
+      <class name="com.flipkart.testcase.HPlaptopspagetest">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateexcelwrite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.testcase.HPlaptopspagetest -->
+    </classes>
+  </test> <!-- Flipkart HP Laptops page testing(failed) -->
+</suite> <!-- Failed suite [Flipkart page Automation testing] -->

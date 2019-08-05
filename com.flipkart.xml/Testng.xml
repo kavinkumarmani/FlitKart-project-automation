@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart page Automation testing">
+
+	<listeners>
+		<listener class-name="com.flipkart.extendreportlistener.ExtentReporterNG"/>
+	</listeners>
+	<test name="Flipkart HP Laptops page testing">
+		<classes>
+			<class name="com.flipkart.testcase.Loginpagetest" />
+			<class name="com.flipkart.testcase.Homepagetest" />
+			<class name="com.flipkart.testcase.Laptopspagetest" />
+			<class name="com.flipkart.testcase.HPlaptopspagetest" />
+		</classes>
+	</test>
+</suite>
